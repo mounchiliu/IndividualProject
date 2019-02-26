@@ -6,6 +6,7 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 **26th Feb**
 
 There are some proposed SLAM systems that deal with dynamic environments.
+
 e.g. 
 DynaSLAM uses Mask R-CNN to segment thoese classes that are potentionally dynamic.
 The camera is tracked using the static part of the image.  Dynamic objects are not used
