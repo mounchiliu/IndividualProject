@@ -3,7 +3,7 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 
 ## Records for things need to do and things have done
 
-**26th Feb*
+**26th Feb**
 
 There are some proposed SLAM systems that deal with dynamic environments.
 e.g. 
