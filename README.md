@@ -4,7 +4,7 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 ## Records for things need to do and things have done
 
 ### 26th Feb
-
+-------------------------------------------------------------------------------------------------------
 **Need to do**
 
 1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM)
