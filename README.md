@@ -43,6 +43,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 
 **Notes for DynSLAM** 
+
 **DynSLAM** present a stereo-based dense mapping algorithm which is able to simultaneously reconstruct the static background, the moving objects and the potentially moving but currently stationary objects (e.g. parked cars) separately.
 
     1. Pre-process the inout by computing a dense map, sparse scene flow and semantic segmentation of the RGB data.
