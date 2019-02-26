@@ -15,6 +15,7 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 3.Implement DynSLAM, try it on different datesets and evaluate it.  
   Have a try to test it with scenes in London which are quite different with scenes in KITTI dataset.
   (London has more tall buildings and cars may drives in a different way.)
+  Try it algorithm for sparse mapping.
 
 4.Have a look at DATMO (https://www.ri.cmu.edu/pub_files/pub4/wang_chieh_chih_2007_1/wang_chieh_chih_2007_1.pdf) 
   which describes the problem of jointly doing SLAM and object tracking. 
@@ -42,7 +43,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 
 **Notes for DynSLAM** 
-**DynSLAM** 
+**DynSLAM** present a stereo-based dense mapping algorithm which is able to simultaneously reconstruct the static background, the moving objects and the potentially moving but currently stationary objects (e.g. parked cars) separately.
 
 
 
