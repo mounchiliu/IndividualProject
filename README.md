@@ -2,7 +2,7 @@
 Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dynamic outdoor environment
 
 ## Records for things need to do and things have done
-
+--------------------------------------------------------------------------------------------------------
 ### 26th Feb
 -------------------------------------------------------------------------------------------------------
 **Need to do**
@@ -76,3 +76,4 @@ The approaches mentioned above both drop the key points on the dynamic objects a
   7. Perform voxel garbage collection to remove voxels allocated spuriously due to artifacts in the depth map.
   
 
+----------------------------------------------------------------------------------------------------------------------------------------
