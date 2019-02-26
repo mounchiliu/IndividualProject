@@ -1,7 +1,7 @@
 Records for things need to do and things have done
 
 26th Feb
-*There are some proposed SLAM systems that deal with dynamic environments.*
+#There are some proposed SLAM systems that deal with dynamic environments.
 
 Need to
 1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM)
