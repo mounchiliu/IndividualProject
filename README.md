@@ -42,7 +42,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 
 **Notes for DynSLAM** 
-
+**DynSLAM** 
 
 
 
