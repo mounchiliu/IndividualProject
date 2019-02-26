@@ -5,23 +5,6 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 
 **26th Feb**
 
-There are some proposed SLAM systems that deal with dynamic environments.
-
-e.g. 
-
-DynaSLAM uses Mask R-CNN to segment thoese classes that are potentionally dynamic.
-The camera is tracked using the static part of the image.  Dynamic objects are not used
-for tracking and mapping.   The system also find a way to complete the parts of the 3D map 
-that is temporally occluded by a moving objects.
-
-DSSLAM adpots SegNet to provide pixel-wise semantic segmentation which helps us to fliter out dynamic objects effectively.
-The uses moving consistency check algorithm to determine whether the keypoints in segmentation results are moving.  
-For dynamic targets, remove all the ORB feature points that fall within the outline of the targets before matching.  
-Furthermore, dynamic targets will not be used for construct the map.
-
-The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
-
-
 **Need to do**
 
 1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM)
@@ -37,10 +20,30 @@ The approaches mentioned above both drop the key points on the dynamic objects a
   which describes the problem of jointly doing SLAM and object tracking. 
   It is very detailed in the maths. The main thing to check at this stage 
   would be the introduction which states the problem
- 
- 
- 
+  
+  
+**Notes**
+
+There are some proposed SLAM systems that deal with dynamic environments.
+
+e.g. 
+
+**DynaSLAM** uses Mask R-CNN to segment thoese classes that are potentionally dynamic.
+The camera is tracked using the static part of the image.  Dynamic objects are not used
+for tracking and mapping.   The system also find a way to complete the parts of the 3D map 
+that is temporally occluded by a moving objects.
+
+**DSSLAM** adpots SegNet to provide pixel-wise semantic segmentation which helps us to fliter out dynamic objects effectively.
+The uses moving consistency check algorithm to determine whether the keypoints in segmentation results are moving.  
+For dynamic targets, remove all the ORB feature points that fall within the outline of the targets before matching.  
+Furthermore, dynamic targets will not be used for construct the map.
+
+The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
+
+
 **Notes for DynSLAM** 
+
+
 
 
   
