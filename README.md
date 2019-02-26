@@ -18,7 +18,7 @@ The uses moving consistency check algorithm to determine whether the keypoints i
 For dynamic targets, remove all the ORB feature points that fall within the outline of the targets before matching.  
 Furthermore, dynamic targets will not be used for construct the map.
 
-The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking.
+The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
 
 
 Need to do
@@ -36,5 +36,9 @@ Need to do
   which describes the problem of jointly doing SLAM and object tracking. 
   It is very detailed in the maths. The main thing to check at this stage 
   would be the introduction which states the problem
+  
+  
+  
+  
 
 
