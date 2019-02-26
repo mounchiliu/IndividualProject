@@ -34,9 +34,7 @@ The camera is tracked using the static part of the image.  Dynamic objects are n
 for tracking and mapping.   The system also finds a way to complete the parts of the 3D map that is temporally occluded by a moving object.
 
 **DSSLAM** adopts SegNet to provide pixel-wise semantic segmentation which helps us to filter out dynamic objects effectively.
-The uses moving consistency check algorithm to determine whether the key points in segmentation results are moving.  
-For dynamic targets, remove all the ORB feature points that fall within the outline of the targets before matching.  
-Furthermore, dynamic targets will not be used for construct the map.
+The uses moving consistency check algorithm to determine whether the key points in segmentation results are moving.  For dynamic targets, remove all the ORB feature points that fall within the outline of the targets before matching.  Furthermore, dynamic targets will not be used for construct the map.
 
 The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
 
