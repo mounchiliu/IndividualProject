@@ -21,7 +21,7 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
   It is very detailed in the maths. The main thing to check at this stage 
   would be the introduction which states the problem
   
-  
+--------------------------------------------------------------------------------------------------------------------------  
 **Notes**
 
 There are some proposed SLAM systems that deal with dynamic environments.
