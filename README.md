@@ -58,22 +58,23 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
      How to estimate whether the object is dynamic or not?
 
-  - For each segmented object, the masked scene flow associated with the specific object instance is used as input to estimate the motion of the camera w.r.t the object instance which is assumed to be static.  If the estimation is successful, then the 3D motion of the object is equal to the inverse of the camera motion.
+     - For each segmented object, the masked scene flow associated with the specific object instance is used as input to estimate the motion of the camera w.r.t the object instance which is assumed to be static.  If the estimation is successful, then the 3D motion of the object is equal to the inverse of the camera motion.
 
-  - For static objects, the resulting 3D object motion will be nearly identical to the camera's movement.
+     - For static objects, the resulting 3D object motion will be nearly identical to the camera's movement.
 
 
   5. For each rigid object of interest (moving or potentially moving), initialize or update its reconstruction.
 
   6. Update the static map reconstruction
 
-    Static map and individual object reconstruction
+   
+     Static map and individual object reconstruction
     
-  DynSLAM uses InfiniTAM for volumetric fusion.  DynSLAM separate the static background from the daynamic objects.  
-  - The estimated vehicle movement (I suppose here it mentioned as camera pose) by the visual odometry is used to fuse the static parts of the input color and depth maps, which are identified based on the instance-aware semantic segmentation component.
+     DynSLAM uses InfiniTAM for volumetric fusion.  DynSLAM separate the static background from the daynamic objects.  
+     - The estimated vehicle movement (I suppose here it mentioned as camera pose) by the visual odometry is used to fuse the static parts of the input color and depth maps, which are identified based on the instance-aware semantic segmentation component.
     
     
-  - Both moving and potentially moving objects are reconstructed individually.  The estimated 3D motions of the individual objects are used for the object volumetric fusion.
+     - Both moving and potentially moving objects are reconstructed individually.  The estimated 3D motions of the individual objects are used for the object volumetric fusion.
   
   7. Perform voxel garbage collection to remove voxels allocated spuriously due to artifacts in the depth map.
   
