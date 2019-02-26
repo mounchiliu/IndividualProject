@@ -20,7 +20,7 @@ Need to
 1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM)
   This system provides a dense SLAM system which attempts to reconstruct moving objects
 
-2. try cuda 8
+2.Try cuda 8
 
 3.Implement it, try it on different dateset and evaluate it.  
   Have a try to test it with scenes in London which are quite different with KITTI dataset.
