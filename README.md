@@ -7,7 +7,7 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 -------------------------------------------------------------------------------------------------------
 **Need to do**
 
-1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM)
+1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM).
   This system provides a dense SLAM system which attempts to reconstruct moving objects.
 
 2.Try cuda 8
