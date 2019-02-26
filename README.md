@@ -68,7 +68,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
   6. Update the static map reconstruction
 
    
-     Static map and individual object reconstruction
+     For static map and individual object reconstruction
     
      DynSLAM uses InfiniTAM for volumetric fusion.  DynSLAM separate the static background from the daynamic objects.  
      - The estimated vehicle movement (I suppose here it mentioned as camera pose) by the visual odometry is used to fuse the static parts of the input color and depth maps, which are identified based on the instance-aware semantic segmentation component.
