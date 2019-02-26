@@ -21,7 +21,7 @@ Furthermore, dynamic targets will not be used for construct the map.
 The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
 
 
-**Need to do
+**Need to do**
 
 1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM)
   This system provides a dense SLAM system which attempts to reconstruct moving objects
