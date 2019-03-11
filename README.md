@@ -79,7 +79,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
   1. SLAM with generalized objects calculates a joint posterior over all generated objects and the robot.  It contains a structure for motion modeling of generalized objects.  --> It is computationally demanding and infeasible.
   
   2. SLAM with DATMO decomposes the estimation problem into two seperate estimators (posteriors for stationary objects and moving objects).  --> lower dimensional than SLAM with generalized objects.
-  The system is able to deal with issues of perception modeling, data association, and moving object detection.
+  The system is able to deal with issues of perception modeling, data association, and moving objects detection.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
