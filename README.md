@@ -41,7 +41,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 **Notes for DynSLAM** 
 
-**DynSLAM** present a stereo-based dense mapping algorithm which is able to simultaneously reconstruct the static background, the moving objects and the potentially moving but currently stationary objects (e.g. parked cars) separately.
+**DynSLAM** presents a stereo-based dense mapping algorithm which is able to simultaneously reconstruct the static background, the moving objects and the potentially moving but currently stationary objects (e.g. parked cars) separately.
 
   1. Pre-process the input by computing a dense map, sparse scene flow and semantic segmentation of the RGB data.
 
@@ -53,7 +53,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 
 
-     How to estimate whether a object is dynamic or not?
+     How to estimate whether an object is dynamic or not?
 
      - For each segmented object, the masked scene flow associated with the specific object instance is used as input to estimate the motion of the camera w.r.t the object instance which is assumed to be static.  If the estimation is successful, then the 3D motion of the object is equal to the inverse of the camera motion.
 
