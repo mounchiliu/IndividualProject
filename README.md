@@ -81,5 +81,19 @@ The approaches mentioned above both drop the key points on the dynamic objects a
   2. SLAM with DATMO decomposes the estimation problem into two separate estimators (posteriors for stationary objects and moving objects).  --> lower dimensional than SLAM with generalized objects.
   The system is able to deal with issues of perception modelling, data association, and moving objects detection.
 
+Generally, a Bayesian formula was introduced to solve SLAM and DATMO.
 
+      -   How does this system detect moving objects?
+      Two approaches -> one for consistency based approach 
+                        and one for motion object map based approach.
+                        
+      1. Consistency-based Detection
+      detect moving objects -> combination of the result from segmentation and moving point detection for determing the dynamic objects
+      
+      Detect moving objects:
+        for a new scan of local surrounding map, find the relative pose -> transform the local surrounding map tp the current coordinate         sytem -> transform to a polar coordinate system -> detect moving points by comparing values along the range axis of the polar           coordinate system.
+        
+      Determine dynamic objects:
+        A segment is identified as a potential moving object if the ratio of the number of moving points to the number of total points 
+        is greater than 0.5.
 ----------------------------------------------------------------------------------------------------------------------------------------
