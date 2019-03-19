@@ -83,7 +83,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 Generally, a Bayesian formula was introduced to solve SLAM and DATMO.
 
-      -   How does this system detect moving objects?
+   -  How does this system detect moving objects?
       Two approaches -> one for consistency based approach 
                         and one for motion object map based approach.
                         
