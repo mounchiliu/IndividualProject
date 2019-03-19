@@ -91,9 +91,8 @@ Generally, a Bayesian formula was introduced to solve SLAM and DATMO.
       detect moving objects -> combination of the result from segmentation and moving point detection for determing the dynamic objects
       
       Detect moving objects:
-        for a new scan of local surrounding map, find the relative pose -> transform the local surrounding map tp the current coordinate         sytem -> transform to a polar coordinate system -> detect moving points by comparing values along the range axis of the polar           coordinate system.
+        for a new scan of local surrounding map, find the relative pose -> transform the local surrounding map tp the current coordinate sytem -> transform to a polar coordinate system -> detect moving points by comparing values along the range axis of the polar        coordinate system.
         
       Determine dynamic objects:
-        A segment is identified as a potential moving object if the ratio of the number of moving points to the number of total points 
-        is greater than 0.5.
+        A segment is identified as a potential moving object if the ratio of the number of moving points to the number of total points is greater than 0.5.
 ----------------------------------------------------------------------------------------------------------------------------------------
