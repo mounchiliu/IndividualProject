@@ -89,14 +89,12 @@ Generally, a Bayesian formula was introduced to solve SLAM and DATMO.
                         
       1. Consistency-based Detection
       
-      detect moving objects -> combination of the result from segmentation and moving point detection for determining the dynamic objects
+      detect moving objects -> combination of the result from segmentation and moving point detection for determining the dynamic objects   
       
-      - Detect moving objects:
-      
+      - Detect moving objects:    
         for a new scan of the local surrounding map, find the relative pose -> transform the local surrounding map tp the current coordinate system -> transform to a polar coordinate system -> detect moving points by comparing values along the range axis of the polar coordinate system.
         
-      - Determine dynamic objects:
-      
+      - Determine dynamic objects:      
         A segment is identified as a potential moving object if the ratio of the number of moving points to the number of total points is greater than 0.5.
         
         Problem: temporary stationary objects cannot be detected & If the time period between consecutive measurements is very short, the motion of moving objects will be too small to detect.
