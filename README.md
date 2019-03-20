@@ -26,6 +26,13 @@ Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dyn
 **Notes**
 
 There are some proposed SLAM systems that deal with dynamic environments.
+According to the paper (https://www.cs.ox.ac.uk/files/9926/Visual%20Slam.pdf), the problem of SLAM in dynamic environments can be viewed from two perspectives.
+
+  1. As a robustness problem -> pose estimation in visual SLAM should remain accurate (segmenting the static and dynamic features in the image and regarding the dynamic parts as outliers.  Pose estimation is computed based on the static parts)
+  
+  2. Extending visual SLAM into dynamic environments -> (Do data association) system should be capable of segmenting the tracked features into different clusters, each associated with a different object.
+
+**For the first perspective,**
 
 e.g. 
 
@@ -38,6 +45,8 @@ The uses moving consistency check algorithm to determine whether the key points 
 
 The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
 
+
+**For the second perspecctive,**
 
 **Notes for DynSLAM** 
 
@@ -72,6 +81,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
      - Both moving and potentially moving objects are reconstructed individually.  The estimated 3D motions of the individual objects are used for the object volumetric fusion.
   
   7. Perform voxel garbage collection to remove voxels allocated spuriously due to artifacts in the depth map.
+  
   
   
   **Notes for SLAM with DATMO (Wang, 2007)** 
