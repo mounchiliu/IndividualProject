@@ -32,6 +32,8 @@ According to the paper (https://www.cs.ox.ac.uk/files/9926/Visual%20Slam.pdf), t
   
   2. Extending visual SLAM into dynamic environments -> (Do data association) system should be capable of segmenting the tracked features into different clusters, each associated with a different object.
 
+
+
 **For the first perspective,**
 
 e.g. 
@@ -44,6 +46,8 @@ for tracking and mapping.   The system also finds a way to complete the parts of
 The uses moving consistency check algorithm to determine whether the key points in segmentation results are moving.  For dynamic targets, remove all the ORB feature points that fall within the outline of the targets before matching.  Furthermore, dynamic targets will not be used for construct the map.
 
 The approaches mentioned above both drop the key points on the dynamic objects and do the localization and mapping tasks without these points.  However, for this project, we consider to keep the points located on dynamic objects as well and use these points for tracking and reconstruction of dynamic objects.
+
+
 
 
 **For the second perspecctive,**
