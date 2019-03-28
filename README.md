@@ -1,6 +1,13 @@
 # IndividualProject
 Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dynamic outdoor environment
 
+## Records for encoutered questions or problems
+For the eavluation of the system, do I need sth to valid the tracking accuracy of the dynamic objects.  
+How can I implement it?
+For public datasets, they did not provide the ground truth for the dynamic objects only the ground truth for the robot (camera) pose.
+
+
+
 ## Records for things need to do and things have done
 --------------------------------------------------------------------------------------------------------
 ### 26th Feb
