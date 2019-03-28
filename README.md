@@ -6,7 +6,7 @@ For the evaluation of the system, do I need to validate the tracking accuracy of
 
 How can I implement it?
 
-For public datasets, they did not provide the ground truth for the dynamic objects only the ground truth for the robot (camera) pose.
+The public datasets for SLAM did not provide the ground truth for the dynamic objects only the ground truth for the robot (camera) pose.
 
 
 
