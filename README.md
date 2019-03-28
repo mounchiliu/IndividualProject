@@ -2,7 +2,7 @@
 Master Individual Project on Simultaneous Localization and Mapping (SLAM) in dynamic outdoor environment
 
 ## Records for encoutered questions or problems
-For the evaluation of the system, do I need sth to valid the tracking accuracy of the dynamic objects?
+For the evaluation of the system, do I need to validate the tracking accuracy of the dynamic objects?
 
 How can I implement it?
 
