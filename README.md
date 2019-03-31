@@ -8,7 +8,7 @@ How can I implement it?
 
 The public datasets for SLAM did not provide the ground truth for the dynamic objects only the ground truth for the robot (camera) pose.
 
-**sol**
+**ANS**
 
 (Ref: email of Dr. Julier)
 
