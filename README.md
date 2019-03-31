@@ -8,6 +8,9 @@ How can I implement it?
 
 The public datasets for SLAM did not provide the ground truth for the dynamic objects only the ground truth for the robot (camera) pose.
 
+**sol**
+Ref: email of Dr. Julier
+As you've seen in your literature review, basically nobody has ground truth of the other objects. The reason is that they need to be "cooperative": they need to have their own ground truthing (e.g., GPS) on board or you have some other kind of super accurate sensing system. The other thing would be to manually set things up. E.g., with a dense laser scanner, you could manually fit a 3D model and figure out stuff from there.
 
 
 ## Records for things need to do and things have done
