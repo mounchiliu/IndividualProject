@@ -61,7 +61,7 @@ According to the paper (https://www.cs.ox.ac.uk/files/9926/Visual%20Slam.pdf), t
 
 
 
-**For the first perspective,**
+**The first perspective**
 
 e.g. 
 
@@ -77,7 +77,7 @@ The approaches mentioned above both drop the key points on the dynamic objects a
 
 
 
-**For the second perspecctive,**
+**The second perspecctive**
 
 **Notes for DynSLAM** 
 
