@@ -36,6 +36,15 @@ As you've seen in your literature review, basically nobody has ground truth of t
   It is very detailed in the maths. The main thing to check at this stage 
   would be the introduction which states the problem
   
+--------------------------------------------------------------------------------------------------------------------------
+## 09th May
+--------------------------------------------------------------------------------------------------------------------------
+**Done**
+Have installed cuda on my laptop.
+Have got a try on DynSlam on the provided demo sequence.
+For the records of setting up the DynaSLAM: see https://github.com/mounchiliu/EverythingAboutSLAM/blob/master/Tip2_DynSLAM
+
+
 --------------------------------------------------------------------------------------------------------------------------  
 **Notes**
 
