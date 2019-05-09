@@ -40,8 +40,12 @@ As you've seen in your literature review, basically nobody has ground truth of t
 ### 09th May
 --------------------------------------------------------------------------------------------------------------------------
 **Done**
+
 Have installed cuda on my laptop.
+
+
 Have got a try on DynSlam on the provided demo sequence.
+
 For the records of setting up the DynaSLAM: see https://github.com/mounchiliu/EverythingAboutSLAM/blob/master/Tip2_DynSLAM
 
 
