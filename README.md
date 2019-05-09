@@ -41,7 +41,7 @@ As you've seen in your literature review, basically nobody has ground truth of t
 --------------------------------------------------------------------------------------------------------------------------
 **Done**
 
-Have installed cuda on my laptop.
+Have installed cuda 8 on my laptop.
 
 
 Have got a try on DynSlam on the provided demo sequence.
