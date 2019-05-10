@@ -49,7 +49,18 @@ Have got a try on DynSlam on the provided demo sequence.
 For the records of setting up the DynaSLAM: see https://github.com/mounchiliu/EverythingAboutSLAM/blob/master/Tip2_DynSLAM
 
 
---------------------------------------------------------------------------------------------------------------------------  
+-------------------------------------------------------------------------------------------------------------------------- 
+### 10th May
+**Things need to do**
+Have a look at DynSLAM, does it provide the trajectory of the dynamic onjects?
+Have a look at the code of DynSLAM.
+Try DynSLAM on other datesets （e.g. KITTI dataset)
+Find limitations of the system.
+- What if we increase the number of moving objects?
+- What if the objects are occluded?
+- scale? Laser scanner?
+
+-------------------------------------------------------------------------------------------------------------------------- 
 **Notes**
 
 There are some proposed SLAM systems that deal with dynamic environments.
