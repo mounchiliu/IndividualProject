@@ -74,7 +74,7 @@ According to the paper (https://www.cs.ox.ac.uk/files/9926/Visual%20Slam.pdf), t
   
   2. Extending visual SLAM into dynamic environments -> (Do data association) system should be capable of segmenting the tracked features into different clusters, each associated with a different object.
 
-
+(Note: systems like the ORBSLAM work reasonably well when most of the scene does not change.  They are based on the geometric consistency to remove the fewer points of dynamic objects in the system.) 
 
 **The first perspective**
 
