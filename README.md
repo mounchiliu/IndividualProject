@@ -62,7 +62,13 @@ Try DynSLAM on other datesets （e.g. KITTI dataset)
 Find limitations of the system.
 - What if we increase the number of moving objects?
 - What if the objects are occluded?
-- scale? Laser scanner?
+- Laser scanner?  --- Mentioned in paper 
+
+'We base our experiments on the video sequences from (a)
+the KITTI odometry and (b) the KITTI tracking benchmarks,
+using the LIDAR as a ground truth for evaluating the quality
+of both the reconstructed static maps, as well as of the
+dynamic object instances.'
 
 -------------------------------------------------------------------------------------------------------------------------- 
 **Notes**
