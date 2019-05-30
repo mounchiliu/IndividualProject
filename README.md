@@ -71,6 +71,14 @@ of both the reconstructed static maps, as well as of the
 dynamic object instances.'`
 
 -------------------------------------------------------------------------------------------------------------------------- 
+### 30th May
+**Things need to do**
+Real-time?
+Frame-to-frame better reconstruction of dynamic objects?
+Which kind of semantic method it use?
+
+
+
 **Notes**
 
 There are some proposed SLAM systems that deal with dynamic environments.
