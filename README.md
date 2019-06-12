@@ -74,8 +74,25 @@ dynamic object instances.'`
 ### 30th May
 **Things need to do**
 Real-time?
-Frame-to-frame better reconstruction of dynamic objects?
-Which kind of semantic method it use?
+Frame-to-frame tracked reconstruction of dynamic objects? Yes. THe system reconstruct all the potential dynamic objects
+Which kind of semantic method it use? MNC Network
+
+### 10th June
+**Things have done**
+
+Successfully extracted objects' motion and the camera poses.  
+
+Draw the camera pose with the objects trajectory from frame to frame.
+
+Problem: For the provided dataset, there are few dynamic objects.  Therefore, the drawing cant show the trajectoty of the dynamic objects.  I will try some other datasets to dest the robustness of the system.
+
+
+**Things need to do**
+Have a look at the segmented network, try on it.  
+
+Test the system with other datasets which have several dynamic objects.
+
+
 
 
 
