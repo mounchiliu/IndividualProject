@@ -73,9 +73,14 @@ dynamic object instances.'`
 -------------------------------------------------------------------------------------------------------------------------- 
 ### 30th May
 **Things need to do**
+
 Real-time?
+
 Frame-to-frame tracked reconstruction of dynamic objects? Yes. THe system reconstruct all the potential dynamic objects
+
 Which kind of semantic method it use? MNC Network
+
+-------------------------------------------------------------------------------------------------------------------------
 
 ### 10th June
 **Things have done**
@@ -92,8 +97,7 @@ Have a look at the segmented network, try on it.
 
 Test the system with other datasets which have several dynamic objects.
 
-
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 **Notes**
