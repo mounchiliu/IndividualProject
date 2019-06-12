@@ -76,7 +76,7 @@ dynamic object instances.'`
 
 Real-time?
 
-Frame-to-frame tracked reconstruction of dynamic objects? Yes. THe system reconstruct all the potential dynamic objects
+Frame-to-frame tracked reconstruction of dynamic objects? Yes. The system reconstructs all the potential dynamic objects
 
 Which kind of semantic method it use? MNC Network
 
@@ -93,6 +93,7 @@ Problem: For the provided dataset, there are few dynamic objects.  Therefore, th
 
 
 **Things need to do**
+
 Have a look at the segmented network, try on it.  
 
 Test the system with other datasets which have several dynamic objects.
