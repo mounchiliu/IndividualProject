@@ -100,6 +100,24 @@ Test the system with other datasets which have several dynamic objects.
 
 --------------------------------------------------------------------------------------------------------------------------
 
+### 24th June
+Have test on kitti tracking datasets which have several dynamic objects in one sequence.
+
+Current problem:
+
+Shows large error on the estimation of vehicle motion when the camera do the rotation.
+Some of dynamic objects determined to be 'uncertain' state.
+
+
+
+
+
+
+
+
+
+
+
 
 **Notes**
 
