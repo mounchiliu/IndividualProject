@@ -106,7 +106,7 @@ Have test on kitti tracking datasets which have several dynamic objects in one s
 Current problem:
 
 - Shows large error on the estimation of vehicle motion when the camera do the rotation.
-- Some of dynamic objects determined to be 'uncertain' state.
+- Some of dynamic objects determined to be 'uncertain' state.  It seems the system does not track these uncertain objects.  Therefore, according to the result shown, for a sequence with multiple dynamic objects, the system can only track some of them.
 
 --------------------------------------------------------------------------------------------------------------------------
 
