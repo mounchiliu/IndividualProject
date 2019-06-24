@@ -106,6 +106,10 @@ Current problem:
 - Shows large error on the estimation of vehicle motion when the camera do the rotation.
 - Some of dynamic objects determined to be 'uncertain' state.  It seems the system does not track these uncertain objects.  Therefore, according to the result shown, for a sequence with multiple dynamic objects, the system can only track some of them.
 
+**Things need to do**
+
+Track the objects with 3d model (the reconstruction)
+
 --------------------------------------------------------------------------------------------------------------------------
 
 
