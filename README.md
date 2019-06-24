@@ -18,7 +18,6 @@ As you've seen in your literature review, basically nobody has ground truth of t
 ## Records for things need to do and things have done
 --------------------------------------------------------------------------------------------------------
 ### 26th Feb
--------------------------------------------------------------------------------------------------------
 **Need to do**
 
 1.Have a look at DynSLAM (https://github.com/AndreiBarsan/DynSLAM).
@@ -38,7 +37,6 @@ As you've seen in your literature review, basically nobody has ground truth of t
   
 --------------------------------------------------------------------------------------------------------------------------
 ### 09th May
---------------------------------------------------------------------------------------------------------------------------
 **Done**
 
 Have installed cuda 8 on my laptop.
