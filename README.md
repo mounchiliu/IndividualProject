@@ -112,8 +112,8 @@ Track the objects with 3d model (the reconstruction)
 
 --------------------------------------------------------------------------------------------------------------------------
 
-We need to eliminate the part of the flow which is caused by camera when we calculate the motion of dynamic objects.
-https://pdfs.semanticscholar.org/3bf5/ddc57a6c71719ef6d4387012e26dc40e7da2.pdf
+#### 1st July
+
 
 --------------------------------------------------------------------------------------------------------------------------
 
