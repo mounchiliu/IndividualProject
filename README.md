@@ -139,7 +139,7 @@ For this condition, (I guess) the surface of the dynamic object change from fram
 
 
 
-The estimated trajectory of each object:
+The estimated trajectory of each object: (red line for camera poses, the others for tracked objects)
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/1-1.png)
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/1-2.png)
