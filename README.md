@@ -163,8 +163,8 @@ The estimated trajectory of each object: (red line for camera poses, the others 
 
 The estimated trajectory of each object:
 
-![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-1.png)
-![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-2.png)
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-1-2.png)
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-2-2.png)
 
 --------------------------------------------------------------------------------------------------------------------------
 
