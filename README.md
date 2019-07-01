@@ -119,18 +119,22 @@ Track the objects with 3d model (the reconstruction)
 - Results:
 
 Rotation:
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/1-object0.png)
 
 Some other object:
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/1-object9.png)
 
 The redlines show the sparse flow estimation.  
 
 Potential problem:
+
 For this condition, (I guess) the surface of the dynamic object change from frame to frame which may cause errors when we do the sparse flow estimation.  We can not find enough matches for motion estimation.  Therefore, the reconstruction is not perfect compare to the other object.
 
 - video
 <embed src="https://www.youtube.com/watch?v=MMSZ_37sGRY" width="257" height="33" wmode="transparent"></embed>
+[![Watch the video]()](https://www.youtube.com/watch?v=MMSZ_37sGRY" width="257)
 
 
 
