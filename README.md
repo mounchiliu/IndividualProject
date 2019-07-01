@@ -138,7 +138,7 @@ For this condition, (I guess) the surface of the dynamic object change from fram
 
 - **video**
 
-(The system also update the dynamic reconstruction in the static sceen from frame to frame.)
+(The system also update the dynamic object reconstruction in the static sceen from frame to frame.)
 
 [![video]()](https://www.youtube.com/watch?v=MMSZ_37sGRY" )
 
