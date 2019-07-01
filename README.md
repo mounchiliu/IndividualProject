@@ -133,8 +133,7 @@ Potential problem:
 For this condition, (I guess) the surface of the dynamic object change from frame to frame which may cause errors when we do the sparse flow estimation.  We can not find enough matches for motion estimation.  Therefore, the reconstruction is not perfect compare to the other object.
 
 - video
-<embed src="https://www.youtube.com/watch?v=MMSZ_37sGRY" width="257" height="33" wmode="transparent"></embed>
-[![Watch the video]()](https://www.youtube.com/watch?v=MMSZ_37sGRY" width="257)
+[![video]()](https://www.youtube.com/watch?v=MMSZ_37sGRY" )
 
 
 
