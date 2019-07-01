@@ -184,9 +184,12 @@ Here is the result,
 
 There is small shift for the static objects.  It seems the error shifts grow with time.
 
+For static objects, identity matrix can be set to improve the accuracy.  However, for dynamic objects, there isnt such kind of method to improve the accuracy. 
+
+Question:
 
 For the dense slam, is there any optimization method to optimize the estimated poses?  
-e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.
+e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.  Can we do a 'local optimization' for each dynamic object?
 
 --------------------------------------------------------------------------------------------------------------------------
 
