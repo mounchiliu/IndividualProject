@@ -152,8 +152,6 @@ The estimated trajectory of each object: (red line for camera poses, the others 
 
 
 
-
-
 **2.Crop the sequence to have less dynamic objects to track,**
 
 
@@ -169,6 +167,26 @@ The estimated trajectory of each object: (red line for camera poses, the others 
 The estimated trajectory of each object:
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-1-2.png)
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-2-2.png)
+
+
+**3. Test on detected static objects** (e.g. parked car)
+
+For these objects, I can set the motion to the identity matrix if the system detects the static object to improve the accuracy.
+
+Here is the result:
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/static-1.png)
+
+However, without the setting of identity matrix, the motion matrix should be approximate to the identity matrix from frame to frame.
+
+Here is the result,
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/static-2.png)
+
+There is small shift for the static objects.  It seems the error shifts grow with time.
+
+
+For the dense slam, is there any optimization method to optimize the estimated poses?  
+e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -274,4 +292,4 @@ Generally, a Bayesian formula was introduced to solve SLAM and DATMO.
       
       The system has a map that contains information from previous moving objects.  If a blob is in an area that was previously occupied by moving objects, this object can be considered as a potential moving object.
 
-----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
