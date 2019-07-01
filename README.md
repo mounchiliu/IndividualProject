@@ -169,6 +169,11 @@ The estimated trajectory of each object:
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-2-2.png)
 
 
+**Things need to do**
+
+1. Have a look at libviso2 to see whether I can have some improvement on the sparse flow estimation.
+(Have a try on optical flow?)
+
 **3. Test on detected static objects** (e.g. parked car)
 
 For these objects, I can set the motion to the identity matrix if the system detects the static object to improve the accuracy.
@@ -186,10 +191,18 @@ There is small shift for the static objects.  It seems the error shifts grow wit
 
 For static objects, identity matrix can be set to improve the accuracy.  However, for dynamic objects, there isnt such kind of method to improve the accuracy. 
 
+[Note: This may because of the error of the camera poses. For Dense SLAM, we may focus only on the camera poses or the objects poses separately.  We do not expect the 'overlap errors'].
+
 Question:
 
-For the dense slam, is there any optimization method to optimize the estimated poses?  
+For the dense slam, is there any optimization method to optimize the estimated the motion of the objects?  
 e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.  Can we do a 'local optimization' for each dynamic object?
+
+-> 
+[InfiniTAM (Dense SLAM) has its own Strategies to do the optimization.]
+Try InifiTam by blocking the static scene and some other objects. Just focuus on one object.
+
+
 
 --------------------------------------------------------------------------------------------------------------------------
 
