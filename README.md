@@ -193,7 +193,7 @@ For static objects, identity matrix can be set to improve the accuracy.  However
 
 [Note: This may because of the error of the camera poses. For Dense SLAM, we may focus only on the camera poses or the objects poses separately.  We do not expect the 'overlap errors'].
 
-Question:
+**Question:**
 
 For the dense slam, is there any optimization method to optimize the estimated the motion of the objects?  
 e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.  Can we do a 'local optimization' for each dynamic object?
