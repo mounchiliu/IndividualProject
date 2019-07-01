@@ -114,11 +114,11 @@ Track the objects with 3d model (the reconstruction)
 
 #### 1st July
 
-**1. Reconstruction 
+**1. Reconstruction **
 
 All the potential dynamic objects are reconstructed using the first frame that observe this object.  For each object, its corresponding RGB and depth data are extracted using the mask resulting from the segmentation procedure.  With these information and the estimated motions of the objects from frame to frame, the object can be reconstructed and also update the reconstruction from frame to frame.
 
-- **Results:
+- **Results:**
 
 Rotation:
 
@@ -136,7 +136,7 @@ Potential problem:
 For this condition, (I guess) the surface of the dynamic object change from frame to frame which may cause errors when we do the sparse flow estimation.  We can not find enough matches for motion estimation.  Therefore, the reconstruction is not perfect compare to the other object.
 
 
-- **video
+- **video**
 
 (The system also update the dynamic reconstruction in the static sceen from frame to frame.)
 
@@ -154,12 +154,12 @@ The estimated trajectory of each object: (red line for camera poses, the others 
 
 
 
-**2. Crop the sequence to have less dynamic objects to track,
+**2. Crop the sequence to have less dynamic objects to track,**
 
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-screen.png)
 
-- video
+- **video**
 
 [![video]()](https://www.youtube.com/watch?v=2u-oRcYf4Bk)
 
