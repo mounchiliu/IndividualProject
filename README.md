@@ -198,8 +198,10 @@ For static objects, identity matrix can be set to improve the accuracy.  However
 For the dense slam, is there any optimization method to optimize the estimated the motion of the objects?  
 e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.  Can we do a 'local optimization' for each dynamic object?
 
--> 
+**->**
+
 [InfiniTAM (Dense SLAM) has its own Strategies to do the optimization.]
+
 Try InifiTam by blocking the static scene and some other objects. Just focuus on one object.
 
 
