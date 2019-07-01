@@ -116,6 +116,7 @@ Track the objects with 3d model (the reconstruction)
 1. All the potential dynamic objects are reconstructed using the first frame that observe this object.  For each object, its corresponding RGB and depth data are extracted using the mask resulting from the segmentation procedure.  With these information and the estimated motions of the objects from frame to frame, the object can be reconstructed and also update the reconstruction from frame to frame.
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/1-1.png)
+<img src="https://github.com/mounchiliu/IndividualProject/blob/master/image/1-1.png" width="48">
 
 --------------------------------------------------------------------------------------------------------------------------
 
