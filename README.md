@@ -151,7 +151,12 @@ The estimated trajectory of each object:
 
 2. Crop the the sequence to have less dynamic objects to track,
 
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/2-screen.png)
+
+- video
+
+[![video]()](https://www.youtube.com/watch?v=2u-oRcYf4Bk)
 
 
 
