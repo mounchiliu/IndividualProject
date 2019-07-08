@@ -212,7 +212,7 @@ Previously, based on the results of the segmentation, there may be more than one
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/pre_seg.png)
 
-I combine these bounding boxes according to the intersection area of each two boxes.  If the ratio of the intersection area to the bouding box is greater than a threshold, the two boxes will be combined.
+I combined these bounding boxes according to the intersection area of each two boxes.  If the ratio of the intersection area to the bouding box is greater than a threshold, the two boxes will be combined.
 
 Result:
 
@@ -224,18 +224,47 @@ There are several missed or false detections from the semantic segmentation algo
 e.g.
 
 Previous frame:
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/seg_problem_pre.png)
 
 Current frame:
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/seg_problem_cur.png)
 
 
 ideas:
-We may propose a assumption that the dynamic object moves in a constant speed in a shor period (e.g. in two consecutive frames).  Then, the moving speed of the object can be used to predict the bounding box of the object in the next frame.  Then, the missed detection can be compensated.
+
+We may propose a assumption that the dynamic object moves in a constant speed in a short period (e.g. in two consecutive frames).  Then, the moving speed of the object can be used to predict the bounding box of the object in the next frame.  Then, the missed detection can be compensated.
+
+**2. Separate Sparse flow of the scene**
+
+Previously, the system computes the camera poses by finding matches in the scene (including dynamic objects).  The camera pose is estimated based on the RANSAC on these matches.  Then the matches of the whole scene (before doing the RANSAC) are passed to the dynamic instance reconstruction process.  The system obtains the matches (before RANSAC) located on the dynamic objects based on the bounding box obtained from the semantic segmentation results.
+
+e.g. The flow (after RANSAC) for estimating the camera pose
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_camera_pose_pre.png)
 
 
+I separated the sparse flow by only retaining the matches located on the static scenes.  Then, the camera pose is obtained by doing the RANSAC using these matches.  
+
+e.g. (After RANSAC)
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_camera_pose.png)
 
 
+For matches that located on the potential dynamic objects, I pass the sparse flow which is fromed according to the matches located on the dynamic objects to instance the reconstruction process.
+
+e.g. (Before RANSAC)
+
+![image][https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_object_before_RANSAC.png]
+
+
+**Some ideas to improve the reconstruction**
+
+Do the RANSAC on the flow of each object? 
+Or change to the dense optical flow to get more matches for tracking the object.
+
+------------------------------------------------------------------------------------------------------------------------
 
 
 
