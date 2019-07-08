@@ -256,7 +256,7 @@ For matches that located on the potential dynamic objects, I pass the sparse flo
 
 e.g. (Before RANSAC)
 
-![image][https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_object_before_RANSAC.png]
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_object_before_RANSAC.png)
 
 
 **Some ideas to improve the reconstruction**
