@@ -206,16 +206,32 @@ Try InifiTam by blocking the static scene and some other objects. Just focuus on
 
 --------------------------------------------------------------------------------------------------------------------------
 ### 8 July
-**1. Combine detected bounding boxes**
+**1. Combine detected bounding boxes to get more information of the object**
 
 Previously, based on the results of the segmentation, there may be more than one detected bounding box on the same object.
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/pre_seg.png)
 
 I combine these bounding boxes according to the intersection area of each two boxes.  If the ratio of the intersection area to the bouding box is greater than a threshold, the two boxes will be combined.
 
 Result:
+
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/cur_seg.png)
 
+**Potential problem and ideas to solve it**
+There are several missed or false detections from the semantic segmentation algorithm, which may cause the problem of data association. (The object may lose several frames to do the tracking and reconstruction).  
+
+e.g.
+
+Previous frame:
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/seg_problem_pre.png)
+
+Current frame:
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/seg_problem_cur.png)
+
+
+ideas:
+We may propose a assumption that the dynamic object moves in a constant speed in a shor period (e.g. in two consecutive frames).  Then, the moving speed of the object can be used to predict the bounding box of the object in the next frame.  Then, the missed detection can be compensated.
 
 
 
