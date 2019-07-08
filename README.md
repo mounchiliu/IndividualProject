@@ -219,6 +219,7 @@ Result:
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/cur_seg.png)
 
 **Potential problem and ideas to solve it**
+
 There are several missed or false detections from the semantic segmentation algorithm, which may cause the problem of data association. (The object may lose several frames to do the tracking and reconstruction).  
 
 e.g.
@@ -252,7 +253,7 @@ e.g. (After RANSAC)
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_camera_pose.png)
 
 
-For matches that located on the potential dynamic objects, I pass the sparse flow which is fromed according to the matches located on the dynamic objects to instance the reconstruction process.
+I only pass the sparse flow of potential dynamic objects which is fromed according to the matches located on the dynamic objects to instance the reconstruction process.
 
 e.g. (Before RANSAC)
 
