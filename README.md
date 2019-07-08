@@ -204,9 +204,17 @@ e.g. ORB-SLAM uses Bundle Adjustment to minimize the reprojection error.  Can we
 
 Try InifiTam by blocking the static scene and some other objects. Just focuus on one object.
 
-
-
 --------------------------------------------------------------------------------------------------------------------------
+### 8 July
+**1. Combine detected bounding boxes**
+
+Previously, based on the results of the segmentation, there may be more than one detected bounding box on the same object.
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/pre_seg.png)
+
+I combine these bounding boxes according to the intersection area of each two boxes.  If the ratio of the intersection area to the bouding box is greater than a threshold, the two boxes will be combined.
+
+Result:
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/cur_seg.png)
 
 
 
