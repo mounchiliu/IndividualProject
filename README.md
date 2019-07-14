@@ -253,9 +253,9 @@ e.g. (After RANSAC)
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_camera_pose.png)
 
 
-I only pass the sparse flow of potential dynamic objects which is fromed according to the matches located on the dynamic objects to instance the reconstruction process.
+Raw flow on potential dynamic objects:
 
-e.g. (Before RANSAC)
+e.g. (Raw flow Before RANSAC) 
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/flow_object_before_RANSAC.png)
 
