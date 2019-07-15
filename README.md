@@ -279,6 +279,20 @@ Ground truth of the dynamic objects? -> use some vedios for simulation? Or just 
 - (Evaluation) Compare the results after removing matches on dynamic objects.
 -----------------------------------------------------------------------------------------------------------------------
 ### 15 July
+
+**Add semi-dense optical flow for pose estimation on dynamic objects**
+
+- Get all the points within the bounding box in current left image.
+
+- For each point, calculate the local gradient. Retain points with salient gradient. 
+  (If the gradient of that point is larger then a threshold value, keep the point.)
+  
+- Find matches using these points with optical flow between "current left images - current right images", 
+                                          "current left images - previous left images"
+                                          "current left images - previous right images"
+- Estimate pose with PnP algorithm.  Furthermore, perform alternatively RANSAC iterations to get a pose estimation with the most inliers.
+
+  Result:
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_1.jpeg)
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2.jpeg)
