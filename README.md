@@ -277,6 +277,9 @@ Ground truth of the dynamic objects? -> use some vedios for simulation? Or just 
   Or use the bounding box which may represent the average motion of the dynamic objects to help the estimation?
   
 - (Evaluation) Compare the results after removing matches on dynamic objects.
+-----------------------------------------------------------------------------------------------------------------------
+### 15 July
+
 
 
 
