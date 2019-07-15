@@ -293,8 +293,9 @@ If the object does not have enough sparse flow to do the pose estimation, the sy
   (If the gradient of that point is larger then a threshold value, keep the point.)
   
 - Find matches using these points with optical flow between "current left images - current right images", 
-                                          "current left images - previous left images"
+                                          "current left images - previous left images",
                                           "current left images - previous right images"
+
 - Estimate pose with PnP algorithm.  Furthermore, perform alternatively RANSAC iterations to get a pose estimation with the most inliers.
 
   Result:
