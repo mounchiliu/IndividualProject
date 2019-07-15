@@ -279,9 +279,9 @@ Ground truth of the dynamic objects? -> use some vedios for simulation? Or just 
 - (Evaluation) Compare the results after removing matches on dynamic objects.
 -----------------------------------------------------------------------------------------------------------------------
 ### 15 July
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_1.jpeg)
 
-
-
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2.jpeg)
 
 ------------------------------------------------------------------------------------------------------------------------
 
