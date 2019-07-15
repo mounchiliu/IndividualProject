@@ -265,6 +265,21 @@ e.g. (Raw flow Before RANSAC)
 Do the RANSAC on the flow of each object? 
 Or change to the dense optical flow to get more matches for tracking the object.
 
+
+**Notes**
+
+- For the evaluation of the system, we need to considier the camera pose, the object pose (velocity, position...).
+
+Ground truth of the dynamic objects? -> use some vedios for simulation? Or just see where they should be?
+
+- For the improvement of the estimation of dynamic object poses, we may use the ground information (e.g. shadow) to enhance the tracking?
+
+  Or use the bounding box which may represent the average motion of the dynamic objects to help the estimation?
+  
+- (Evaluation) Compare the results after removing matches on dynamic objects.
+
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
