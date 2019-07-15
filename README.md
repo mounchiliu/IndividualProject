@@ -282,6 +282,9 @@ Ground truth of the dynamic objects? -> use some vedios for simulation? Or just 
 
 **Add semi-dense optical flow for pose estimation on dynamic objects**
 
+If the object does not have enough sparse flow to do the pose estimation, the system will use semi-dense optical flow.
+
+
 - Get all the points within the bounding box in current left image.
 
 - For each point, calculate the local gradient. Retain points with salient gradient. 
@@ -296,6 +299,8 @@ Ground truth of the dynamic objects? -> use some vedios for simulation? Or just 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_1.jpeg)
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2.jpeg)
+
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
