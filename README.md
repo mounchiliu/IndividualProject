@@ -303,6 +303,12 @@ If the object does not have enough sparse flow to do the pose estimation, the sy
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2.jpg)
 
 
+The original system may lose the tracking of the dynamic objects due to insufficient sparse flow.  Now, the system can keep tracking the object and then keep updating the instance reconstruction unless there is 
+- 1) a false segmentation detection (e.g. label the car as sth else like boat) 
+
+- 2) or the current frame does not have a high resolution scene of that object 
+
+- 3) or the frame can only get a small part of the object (at this condition, the system can not get enough matches even using semi-dence optical flow)   
 
 
 ------------------------------------------------------------------------------------------------------------------------
