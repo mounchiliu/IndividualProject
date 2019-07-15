@@ -282,6 +282,8 @@ Ground truth of the dynamic objects? -> use some vedios for simulation? Or just 
 
 **Add semi-dense optical flow for pose estimation on dynamic objects**
 
+In order to avoid expensive computation, I use semi-dense optical flow to enhance the pose estimation of dynamic objects.
+->
 If the object does not have enough sparse flow to do the pose estimation, the system will use semi-dense optical flow.
 
 
