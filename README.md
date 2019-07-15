@@ -298,7 +298,7 @@ If the object does not have enough sparse flow to do the pose estimation, the sy
   Result:
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_1.jpeg)
 
-![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2.jpeg)
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2_new.jpeg)
 
 
 
