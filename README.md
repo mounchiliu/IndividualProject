@@ -296,9 +296,9 @@ If the object does not have enough sparse flow to do the pose estimation, the sy
 - Estimate pose with PnP algorithm.  Furthermore, perform alternatively RANSAC iterations to get a pose estimation with the most inliers.
 
   Result:
-![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_1.jpeg)
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_1.jpg)
 
-![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2_new.jpeg)
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/semi-dense_2.jpg)
 
 
 
