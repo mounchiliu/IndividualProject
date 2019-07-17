@@ -298,7 +298,7 @@ If the object does not have enough sparse flow to do the pose estimation, the sy
                                           
   -> changed to 
   
-  Find matches using optical flow between the left and right images.  Then match them in a circle.
+  Find matches using optical flow between the left and right images and consecutive frames.  Then match them in a circle.
   
   
 
