@@ -324,6 +324,14 @@ Drift of the object instance:
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/test1.png)
 
+I found this may because sometimes the detected bounding box is larger than the object.  When the system take points to find matches for pose estimation using the optical flow, the points on the static scene will also be taken, which influences the pose estimation of the dynamic objects. 
+
+Therefore, I shrink the bounding box when the system chooses points for optical flow to ensure most chosen points located on the objects.
+
+Result:
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/test2.png)
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
