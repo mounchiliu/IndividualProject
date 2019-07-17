@@ -295,6 +295,12 @@ If the object does not have enough sparse flow to do the pose estimation, the sy
 - Find matches using these points with optical flow between "current left images - current right images", 
                                           "current left images - previous left images",
                                           "current left images - previous right images"
+                                          
+  -> changed to 
+  
+  Find matches using optical flow between the left and right images.  Then match them in a circle.
+  
+  
 
 - Estimate pose with PnP algorithm.  Furthermore, perform alternatively RANSAC iterations to get a pose estimation with the most inliers.
 
