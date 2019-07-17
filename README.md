@@ -318,6 +318,12 @@ The original system may lose the tracking of the dynamic objects due to insuffic
 - 3) or the frame can only get a small part of the object (at this condition, the system can not get enough matches even using semi-dence optical flow)   
 
 
+**Problem:**
+
+Drift of the object instance:
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/test1.png)
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
