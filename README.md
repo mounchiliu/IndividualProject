@@ -332,6 +332,12 @@ Result:
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/test2.png)
 
+
+**Things need to do**
+1. Try optical flow for the whole sequences
+2. use a larger bounding box then do the sparse flow.
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
