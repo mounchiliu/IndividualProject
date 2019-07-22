@@ -332,13 +332,23 @@ Result:
 
 ![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/test2.png)
 
+(Use the wrong bounding box, the DynSLAM has created two bounding box one for remove object from dynamic scene, one for object reconstruction.  Here we should use the small one which is the one for object reconstruction.  And then, this problem will not happen.)
 
 **Things need to do**
 1. Try optical flow for the whole sequences
-2. use a larger bounding box then do the sparse flow.
+2. use a larger bounding box then do the sparse flow?
 
 
 ------------------------------------------------------------------------------------------------------------------------
+
+### July 22
+
+Problem when the system finds matches
+
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/problem1.png)
+
+![image](https://github.com/mounchiliu/IndividualProject/blob/master/image/problem2.png)
 
 
 
