@@ -356,7 +356,7 @@ Problem when the system finds matches
 
 The bounding box of the object problem the information of the movement of the object in some degree.  Therefore, we can calculate the movement of the bounding box, if the matches do not accord with the movement of the bounding box (e.g. get much larger or smaller movement than  or the movement of the bounding box or shows a opposite direction of the movement compared with the bounding box), these matches will be labeled as outliers.
 
-
+-------------------------------------------------------------------------------------------------------------------------
 
 **Notes**
 
