@@ -363,6 +363,11 @@ use template matching for tracking object
 
 -------------------------------------------------------------------------------------------------------------------------
 
+### July 29
+
+Have try HSV image to do template matching & template matching to track the object
+
+
 **Notes**
 
 There are some proposed SLAM systems that deal with dynamic environments.
